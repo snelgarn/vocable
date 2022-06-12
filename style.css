@@ -1,0 +1,37 @@
+body {
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  font-size: 2em;
+}
+
+.quiz {
+  margin-top: 2em;
+}
+
+.quiz [type="text"] {
+    font-size: 0.7em;
+}
+
+.question {
+  vertical-align: middle;
+}
+
+/* label personalisation */
+.label-file {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border: dashed black;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+.label-file:hover {
+    color: gray;
+}
+
+/* and hide input */
+.input-file {
+    display: none;
+}
